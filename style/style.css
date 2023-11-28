@@ -1,0 +1,179 @@
+body{
+	font-family: sans-serif;
+
+}
+
+#container{
+	width: 100%;
+	height: 140vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+}
+#containerq{
+	width: 100%;
+	height: 140vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+}
+
+#cabecalho{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 5vh;
+}
+
+#h1{
+	background-color: #808080;
+	width: 15%;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}
+
+#m1{
+	background-color: #808080;
+	width: 85%;
+	height: 20vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+#home{
+	width: 30%;
+	height: 15vh;
+}
+#quadros{
+	width: 30%;
+	height: 15vh;
+}
+#conteudo{
+	width: 100%;
+	height: 110vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	margin-bottom: 5vh;
+}
+#conteudoq{
+	width: 100%;
+	height: 110vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	margin-bottom: 5vh;
+}
+.coluna{
+	width: 20%;
+	height: 50vh;
+	background-color: #F0F0F0;
+	margin-left: 4%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.colunaq{
+	width: 24%;
+	height: 50vh;
+	background-color: #F0F0F0;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.texto{
+	margin-left: 4px;
+	font-size: 19px;
+}
+#texto2{
+	margin-left: 4px;
+	font-size: 18px;	
+}
+#video{
+	width: 68%;
+	height: 50vh;
+	margin-left: 4%;
+	background-color: #6C6C6C;
+}
+#info{
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 20%;
+	height: 50vh;
+	background-color: #6C6C6C;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+#footer{
+	width: 100%;
+	height: 20vh;
+}
+
+@media (max-width: 760px){
+	#container{
+		height: 186vh;
+	}
+	#containerq{
+		height: 203vh;
+	}
+	#cabecalho{
+		height: 10vh;
+	}
+	#h1{
+		height: 10vh;
+	}
+	
+	#m1{
+		height: 10vh;
+	}
+	#home{
+	height: 5vh;
+	}
+	#quadros{
+		height: 5vh;
+	}
+	#conteudo{
+		justify-content: space-around;
+		height: 171vh;
+	}
+	#conteudoq{
+		height: 188vh;
+		margin-bottom: 0vh;
+		justify-content: center;
+	}
+	#video{
+		width: 100%;
+		height: 56vh;
+		margin-left: 0px;
+		margin-bottom: 5vh;
+	}
+	#info{
+		display: none;
+	}
+	.coluna{
+		width: 40%;
+		margin-bottom: 5vh;
+		margin-left: none;
+	}
+	.colunaq{
+		width: 40%;
+		height: 42vh;
+		margin-bottom: 5vh;
+		margin-left: none;
+		margin-right: none;
+	}
+}
